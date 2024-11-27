@@ -1,0 +1,1460 @@
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: #3D613B;
+}
+
+nav .wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav .wrapper h1 {
+    color: white;
+}
+
+nav .wrapper .link ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav .wrapper .link ul li {
+    list-style: none;
+}
+
+nav .wrapper .link ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav .wrapper .icon {
+    display: flex;
+    gap: 20px;
+}
+
+nav .wrapper .icon i {
+    color: white;
+    font-size: 20px;
+}
+
+/* Secondary nav */
+
+
+.sec-nav {
+    height: 60px;
+    width: 100%;
+    /* background-color: rgb(255, 255, 15); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+
+.sec-nav .wrapper {
+    height: 80%;
+    /* width: 100%; */
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+
+.sec-nav .wrapper .left .location {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    /* background-color: rgb(30, 58, 49); */
+}
+
+.sec-nav .wrapper .left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sec-nav .wrapper .right input {
+    height: 30px;
+    width: 400px;
+    background-color: #eeeeee;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 2px solid none;
+
+}
+
+.sec-nav .wrapper .right {
+    display: flex;
+    /* align-items: ; */
+    justify-content: end;
+}
+
+
+
+.sec-nav .wrapper .right form {
+    /* display: flex; */
+    position: relative;
+}
+
+.sec-nav .wrapper .right form i {
+    /* display: flex;
+    posi */
+    position: absolute;
+    /* color: blue; */
+    right: 5px;
+    justify-content: center;
+    align-items: center;
+    top: 25%;
+    /* background-color: #3D613B; */
+    /* color: whitesmoke; */
+    /* border: 30px; */
+    padding-right: 4px;
+
+}
+
+/* Shopping section */
+
+.suggested-products {
+    height: 500px;
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.suggested-products .wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* background-color: lightcoral; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.suggested-products .wrapper .heading {
+    height: 10%;
+    width: 100%;
+    /* background-color: lightcyan; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggested-products .wrapper .image-wrapper {
+    height: 90%;
+    width: 100%;
+    /* background-color: lightgoldenrodyellow; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+.suggested-products .wrapper .image-wrapper .left-container  {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    /* padding-left: 50px; */
+    /* background-color: lightgray */
+}
+
+.suggested-products .wrapper .image-wrapper .left-container .primary-product-button{
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    
+}
+
+.suggested-products .wrapper .image-wrapper .left-container img {
+    height: 100%;
+    width: 100%;
+    /* background-color: lightgray; */
+    object-fit: fill;
+    object-position: center;
+    /* padding-right: 10px; */
+
+}
+
+.suggested-products .wrapper .image-wrapper .right-container {
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(34, 255, 34); */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.suggested-products .wrapper .image-wrapper .right-container .top-img {
+    height: 48%;
+    width: 100%;
+    /* background-color: lightseagreen;  */
+    /* object-fit: cover; */
+    position: relative;
+    /* position: absolute; */
+    /* bottom: 0%; */
+    /* right: 0%; */
+}
+
+.suggested-products .wrapper .image-wrapper .right-container .top-img .primary-product-button{
+    position: absolute;
+    /* position: absolute; */
+    bottom: 4%;
+    right: 3%;
+    
+}
+
+.suggested-products .wrapper .image-wrapper .right-container .top-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.suggested-products .wrapper .image-wrapper .right-container .bottom-img {
+    height: 50%;
+    width: 100%;
+    /* background-color: lightsteelblue; */
+    display: flex;
+    gap: 10px;
+}
+
+.suggested-products .wrapper .image-wrapper .right-container .bottom-img .bottom-left{
+    position: relative;
+}
+
+.suggested-products .wrapper .image-wrapper .right-container .bottom-img .bottom-left .primary-product-button{
+    position: absolute;
+    bottom: 4%;
+    right: 3%;
+}
+
+.suggested-products .wrapper .image-wrapper .right-container .bottom-img .bottom-left img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.suggested-products .wrapper .image-wrapper .right-container .bottom-img .bottom-left {
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(22, 108, 221);  */
+}
+
+.suggested-products .wrapper .image-wrapper .right-container .bottom-img .bottom-right {
+    height: 100%;
+    width: 50%;
+    /* background-color: aquamarine;  */
+}
+
+.suggested-products .wrapper .image-wrapper .right-container .bottom-img .bottom-right{
+    position: relative;
+}
+
+.suggested-products .wrapper .image-wrapper .right-container .bottom-img .bottom-right .primary-product-button{
+    position: absolute;
+    bottom: 4%;
+    right: 3%;
+}
+
+
+
+.suggested-products .wrapper .image-wrapper .right-container .bottom-img .bottom-right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* haircare */
+
+.haircare {
+    height: 450px;
+    width: 100%;
+    /* background-color: yellow; */
+    margin-bottom: 60px;
+}
+
+.haircare .wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 30px; */
+}
+
+.haircare .wrapper .heading-container{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: space-between;
+    /* background-color: aqua; */
+    /* gap: 50px; */
+}
+
+.haircare .wrapper .heading-container .seeall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.haircare .wrapper .heading-container h1 {
+    height: 100%;
+    /* text-align: center; */
+     /* background-color: blue; */
+    display: flex; 
+    /* /flex-direction: column;  */
+    justify-content: center;
+    align-items: center;
+}
+
+.haircare .wrapper h1 {
+    height: 15%;
+    /* background-color: lightblue; */
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.haircare .wrapper .card-container {
+    height: 70%;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.haircare .wrapper .card-container .card {
+    /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
+    height: 100%;
+    width: 20%;
+    /* background-color: lightskyblue;  */
+    padding-bottom: 8px;
+    /* text-decoration: none; */
+}
+
+.haircare .wrapper .card-container .card:hover {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0.5);
+}
+
+.haircare .wrapper .card-container .card img {
+    height: 60%;
+    width: 100%;
+    /* background-color: lightgreen; */
+    object-fit: cover;
+    object-position: center;
+    /* margin-bottom: 10px; */
+}
+
+.haircare .wrapper .card-container .card .content {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 4px; */
+    /* background-color: yellow; */
+    /* padding-bottom: 9px; */
+    /* text-decoration: none; */
+}
+
+.card-container .card a {
+    text-decoration: none;
+    /* background-color: aqua; */
+    color: black;
+    
+}
+
+.haircare .wrapper .card-container .card .content .productname{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.haircare .wrapper .card-container .card .content .price {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+}
+
+.haircare .wrapper .card-container .card .content .price .offprice {
+    /* background-color: red; */
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.haircare .wrapper .card-container .card .content .price .ogprice{
+    color: grey;
+    text-decoration: line-through;
+    font-weight: 600;
+}
+
+
+
+.haircare .wrapper .card-container .card .content .price h3 {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.haircare .wrapper .card-container .card .content p:not(.offer .wrapper .card-container .card .content .rating p) {
+    padding-top: 5px;
+}
+
+.haircare .wrapper .card-container .card .content .rating {
+    display: flex;
+    justify-content: center;
+}
+
+.haircare .wrapper .card-container .card .content .rating i {
+    font-size: 16px;
+    color: rgb(255, 255, 0);
+    padding-top: 7px;
+    padding-right: 5px;
+}
+
+
+.haircare .wrapper .card-container .card .content .rating p {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+/* Skincare */
+
+.skincare {
+    height: 450px;
+    width: 100%;
+    /* background-color: yellow; */
+    margin-bottom: 30px;
+}
+
+.skincare .wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 30px; */
+}
+
+.skincare .wrapper .heading-container{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    /* align-items: center; */
+    /* background-color: aqua; */
+    /* gap: 50px; */
+}
+
+.skincare .wrapper .heading-container .seeall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.skincare .wrapper .heading-container h1{
+    height: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skincare .wrapper h1 {
+    height: 15%;
+    /* background-color: lightblue; */
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.skincare .wrapper .card-container {
+    height: 70%;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.skincare .wrapper .card-container .card {
+    /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
+    height: 100%;
+    width: 20%;
+    /* background-color: lightskyblue;  */
+    padding-bottom: 8px;
+}
+
+.skincare .wrapper .card-container .card:hover {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0.5);
+}
+
+.skincare .wrapper .card-container .card img {
+    height: 60%;
+    width: 100%;
+    /* background-color: lightgreen; */
+    object-fit: cover;
+    object-position: center;
+    /* margin-bottom: 10px; */
+}
+
+.skincare .wrapper .card-container .card .content {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 4px; */
+    /* background-color: yellow; */
+    /* padding-bottom: 9px; */
+}
+
+.skincare .wrapper .card-container .card .content .productname{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.skincare .wrapper .card-container .card .content .price {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+}
+
+.skincare .wrapper .card-container .card .content .price .offprice {
+    /* background-color: red; */
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.skincare .wrapper .card-container .card .content .price .ogprice{
+    color: grey;
+    text-decoration: line-through;
+    font-weight: 600;
+}
+
+
+
+.skincare .wrapper .card-container .card .content .price h3 {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.skincare .wrapper .card-container .card .content p:not(.offer .wrapper .card-container .card .content .rating p) {
+    padding-top: 5px;
+}
+
+.skincare .wrapper .card-container .card .content .rating {
+    display: flex;
+    justify-content: center;
+}
+
+.skincare .wrapper .card-container .card .content .rating i {
+    font-size: 16px;
+    color: rgb(255, 255, 0);
+    padding-top: 7px;
+    padding-right: 5px;
+}
+
+
+.skincare .wrapper .card-container .card .content .rating p {
+    font-size: 16px;
+}
+
+
+/* Cosmetics */
+
+.cosmetics {
+    height: 450px;
+    width: 100%;
+    /* background-color: yellow; */
+    margin-bottom: 30px;
+}
+
+.cosmetics .wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 30px; */
+}
+
+.cosmetics .wrapper .heading-container{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    /* align-items: center; */
+    /* background-color: aqua; */
+    /* gap: 50px; */
+}
+
+.cosmetics .wrapper .heading-container .seeall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.cosmetics .wrapper .heading-container h1{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cosmetics .wrapper h1 {
+    height: 15%;
+    /* background-color: lightblue; */
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.cosmetics .wrapper .card-container {
+    height: 70%;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.cosmetics .wrapper .card-container .card {
+    /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
+    height: 100%;
+    width: 20%;
+    /* background-color: lightskyblue;  */
+    padding-bottom: 8px;
+    text-decoration: none;
+}
+
+.cosmetics .wrapper .card-container .card:hover {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0.5);
+}
+
+.cosmetics .wrapper .card-container .card img {
+    height: 60%;
+    width: 100%;
+    /* background-color: lightgreen; */
+    object-fit: cover;
+    object-position: center;
+    /* margin-bottom: 10px; */
+}
+
+.cosmetics .wrapper .card-container .card .content {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 4px; */
+    /* background-color: yellow; */
+    /* padding-bottom: 9px; */
+}
+
+.cosmetics .wrapper .card-container .card .content .productname{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.cosmetics .wrapper .card-container .card .content .price {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+}
+
+.cosmetics .wrapper .card-container .card .content .price .offprice {
+    /* background-color: red; */
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.cosmetics .wrapper .card-container .card .content .price .ogprice{
+    color: grey;
+    text-decoration: line-through;
+    font-weight: 600;
+}
+
+
+
+.cosmetics .wrapper .card-container .card .content .price h3 {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.cosmetics .wrapper .card-container .card .content p:not(.offer .wrapper .card-container .card .content .rating p) {
+    padding-top: 5px;
+}
+
+.cosmetics .wrapper .card-container .card .content .rating {
+    display: flex;
+    justify-content: center;
+}
+
+.cosmetics .wrapper .card-container .card .content .rating i {
+    font-size: 16px;
+    color: rgb(255, 255, 0);
+    padding-top: 7px;
+    padding-right: 5px;
+}
+
+
+.cosmetics .wrapper .card-container .card .content .rating p {
+    font-size: 16px;
+}
+
+
+/* media query */
+
+/* sec nav */
+
+@media only screen and (max-width: 900px){
+    .sec-nav .wrapper .right input{
+        width: 330px;
+    }
+
+    .sec-nav .wrapper .left p{
+        font-size: 14px;
+    }
+
+    .sec-nav .wrapper .left .location i{
+        font-size: 16px;
+    }
+    .sec-nav .wrapper .left .location p{
+        font-size: 14px;
+}
+
+}
+
+@media only screen and (max-width: 768px){
+    .sec-nav .wrapper .right input{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 690px){
+    .sec-nav {
+        height: auto;
+        width: 100%;
+        margin-top: 10px;
+}
+    
+    
+    .sec-nav .wrapper {
+        height: auto;
+        /* width: 100%; */
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .sec-nav .wrapper .left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    
+    .sec-nav .wrapper .right {
+        display: flex;
+        /* align-items: ; */
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+.sec-nav .wrapper .right input {
+    height: 30px;
+    width: 400px;
+}
+}
+
+
+@media only screen and (max-width: 500px){
+    .sec-nav .wrapper .right input {
+        height: 30px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 370px){
+    .sec-nav .wrapper .right input {
+        height: 30px;
+        width: 250px;
+    }
+}
+
+
+/* suggested products */
+
+@media only screen and (max-width: 800px){
+    .suggested-products .wrapper .heading h1{
+        font-size: 20px;
+    }
+
+    .suggested-products .wrapper .image-wrapper .left-container {
+        height: 85%;
+        width: 50%;
+}
+
+.suggested-products .wrapper .image-wrapper .right-container {
+    height: 85%;
+    width: 50%;
+
+}
+}
+
+@media only screen and (max-width: 730px){
+    .suggested-products {
+        height: auto;
+        width: 100%;
+        /* background-color: lightblue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-bottom: 60px; */
+    }
+    
+    .suggested-products .wrapper {
+        height: auto;
+        width: 100%;
+        /* gap: 20px; */
+        /* background-color: lightcoral; */
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    
+    .suggested-products .wrapper .heading {
+        height: 10%;
+        width: 100%;
+        /* background-color: lightcyan; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .suggested-products .wrapper .image-wrapper {
+        height: 90%;
+        width: 100%;
+        /* background-color: lightgoldenrodyellow; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    
+    .suggested-products .wrapper .image-wrapper .left-container  {
+        height: 100%;
+        width: 50%;
+        position: relative;
+        /* padding-left: 50px; */
+        /* background-color: lightgray */
+    }
+    
+    .suggested-products .wrapper .image-wrapper .left-container .primary-product-button{
+        position: absolute;
+        bottom: 3%;
+        right: 4%;
+        
+    }
+
+    .suggested-products .wrapper .image-wrapper .right-container .top-img .primary-product-button{
+        bottom: 6%;
+        right: 4%;
+    }
+
+    .suggested-products .wrapper .image-wrapper .right-container .bottom-img .bottom-left .primary-product-button {
+        position: absolute;
+        bottom: 6%;
+        right: 4%;
+    
+}
+
+.suggested-products .wrapper .image-wrapper .right-container .bottom-img .bottom-right .primary-product-button {
+    position: absolute;
+    bottom: 6%;
+    right: 4%;
+}
+
+.suggested-products .wrapper .image-wrapper .right-container {
+    height: 85%;
+    width: 70%;
+}
+
+.suggested-products .wrapper .image-wrapper .left-container {
+    height: 100%;
+    width: 70%;
+}
+}
+
+
+
+
+@media only screen and (max-width: 495px){
+
+.suggested-products .wrapper .image-wrapper .right-container .bottom-img {
+    height: 50%;
+    width: 100%;
+    /* background-color: lightsteelblue; */
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap
+}
+
+.suggested-products .wrapper .image-wrapper .right-container .bottom-img .bottom-left {
+    height: 100%;
+    width: 100%
+}
+
+.suggested-products .wrapper .image-wrapper .right-container .bottom-img .bottom-right {
+    height: 100%;
+    width: 100%;
+}
+
+.suggested-products .wrapper .image-wrapper .right-container .bottom-img .bottom-left .primary-product-button {
+    position: absolute;
+    bottom: 2%;
+}
+
+.suggested-products .wrapper .image-wrapper .right-container .bottom-img .bottom-right .primary-product-button {
+    position: absolute;
+    bottom: 6%;
+    right: 4%
+}
+
+.suggested-products .wrapper .image-wrapper .right-container .top-img .primary-product-button {
+    bottom: 5%;
+    right: 0%;
+}
+}
+
+
+/* haircare*/
+@media only screen and (max-width: 900px){}
+.haircare .wrapper .card-container .card .content .rating p {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1000px){
+    .haircare .wrapper .card-container .card .content .productname {
+        font-weight: 700;
+        font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 994px){}
+.haircare .wrapper .card-container .card .content .rating p {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 900px){
+    .haircare .wrapper .card-container .card .content .rating p {
+        font-size: 14px
+}
+}
+
+@media only screen and (max-width: 900px){
+    .haircare {
+        height: auto;
+        width: 100%;
+        /* background-color: yellow; */
+        /* margin-bottom: 15px; */
+        /* margin-top: 60px; */
+    }
+
+    .haircare .wrapper {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .haircare .wrapper .card-container {
+        height: auto;
+        width: 100%;
+        /* background-color: lightcoral; */
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .haircare .wrapper .card-container .card {
+        /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
+        height: 300px;
+        width: 45%;
+        /* background-color: lightskyblue;  */
+        padding-bottom: 8px;
+        /* text-decoration: none; */
+    }
+
+    .haircare .wrapper .card-container .card .content .productname {
+        font-weight: 700;
+        font-size: 18px;
+    
+}
+
+.haircare .wrapper .heading-container h1{
+    font-size: 20px;
+}
+}
+
+
+@media only screen and (max-width: 740px){
+    .haircare {
+        height: auto;
+        width: 100%;
+        /* background-color: yellow; */
+        /* margin-bottom: 15px; */
+        /* margin-top: 60px; */
+    }
+
+    .haircare .wrapper {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .haircare .wrapper .card-container {
+        height: auto;
+        width: 100%;
+        /* background-color: lightcoral; */
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .haircare .wrapper .card-container .card {
+        /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
+        height: 300px;
+        width: 40%;
+        /* background-color: lightskyblue;  */
+        padding-bottom: 8px;
+        /* text-decoration: none; */
+    }
+    
+}
+
+@media only screen and (max-width: 545px){
+    .haircare .wrapper .card-container .card .content .rating p {
+        font-size: 14px
+}
+
+.haircare {
+    height: auto;
+    width: 100%;
+    /* background-color: yellow; */
+    /* margin-bottom: 15px; */
+    /* margin-top: 60px; */
+}
+
+.haircare .wrapper {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.haircare .wrapper .card-container {
+    height: auto;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.haircare .wrapper .card-container .card {
+    /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
+    height: 300px;
+    width: 100%;
+    /* background-color: lightskyblue;  */
+    padding-bottom: 8px;
+    /* text-decoration: none; */
+}
+
+
+}
+
+
+/* skincare */
+
+@media only screen and (max-width: 900px){}
+.skincare .wrapper .card-container .card .content .rating p {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1000px){
+    .skincare .wrapper .card-container .card .content .productname {
+        font-weight: 700;
+        font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 994px){}
+.skincare .wrapper .card-container .card .content .rating p {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 900px){
+    .skincare .wrapper .card-container .card .content .rating p {
+        font-size: 14px
+}
+}
+
+@media only screen and (max-width: 900px){
+    .skincare {
+        height: auto;
+        width: 100%;
+        /* background-color: yellow; */
+        margin-bottom: 60px;
+        /* margin-top: 60px; */
+    }
+
+    .skincare .wrapper {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .skincare .wrapper .card-container {
+        height: auto;
+        width: 100%;
+        /* background-color: lightcoral; */
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .skincare .wrapper .card-container .card {
+        /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
+        height: 300px;
+        width: 45%;
+        /* background-color: lightskyblue;  */
+        padding-bottom: 8px;
+        /* text-decoration: none; */
+    }
+
+    .skincare .wrapper .card-container .card .content .productname {
+        font-weight: 700;
+        font-size: 18px;
+    
+}
+}
+
+
+@media only screen and (max-width: 740px){
+    .skincare {
+        height: auto;
+        width: 100%;
+        /* background-color: yellow; */
+        /* margin-bottom: 15px; */
+        /* margin-top: 60px; */
+    }
+
+    .skincare .wrapper {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .skincare .wrapper .card-container {
+        height: auto;
+        width: 100%;
+        /* background-color: lightcoral; */
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .skincare .wrapper .card-container .card {
+        /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
+        height: 300px;
+        width: 40%;
+        /* background-color: lightskyblue;  */
+        padding-bottom: 8px;
+        /* text-decoration: none; */
+    }
+    
+}
+
+@media only screen and (max-width: 545px){
+    .skincare .wrapper .card-container .card .content .rating p {
+        font-size: 14px
+}
+
+.skincare {
+    height: auto;
+    width: 100%;
+    /* background-color: yellow; */
+    /* margin-bottom: 15px; */
+    /* margin-top: 60px; */
+}
+
+.skincare .wrapper {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skincare .wrapper .card-container {
+    height: auto;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skincare .wrapper .card-container .card {
+    /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
+    height: 300px;
+    width: 100%;
+    /* background-color: lightskyblue;  */
+    padding-bottom: 8px;
+    /* text-decoration: none; */
+}
+
+.skincare .wrapper .heading-container h1{
+    font-size: 20px;
+}
+}
+
+
+/* Cosmetics */
+
+@media only screen and (max-width: 900px){}
+.cosmetics .wrapper .card-container .card .content .rating p {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1000px){
+    .cosmetics .wrapper .card-container .card .content .productname {
+        font-weight: 700;
+        font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 994px){}
+.cosmetics .wrapper .card-container .card .content .rating p {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 900px){
+    .cosmetics .wrapper .card-container .card .content .rating p {
+        font-size: 14px
+}
+}
+
+@media only screen and (max-width: 900px){
+    .cosmetics {
+        height: auto;
+        width: 100%;
+        /* background-color: yellow; */
+        /* margin-bottom: 15px; */
+        /* margin-top: 60px; */
+    }
+
+    .cosmetics .wrapper {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .cosmetics .wrapper .card-container {
+        height: auto;
+        width: 100%;
+        /* background-color: lightcoral; */
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .cosmetics .wrapper .card-container .card {
+        /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
+        height: 300px;
+        width: 45%;
+        /* background-color: lightskyblue;  */
+        padding-bottom: 8px;
+        /* text-decoration: none; */
+    }
+
+    .cosmetics .wrapper .card-container .card .content .productname {
+        font-weight: 700;
+        font-size: 18px;
+    
+}
+}
+
+
+@media only screen and (max-width: 740px){
+    .cosmetics {
+        height: auto;
+        width: 100%;
+        /* background-color: yellow; */
+        margin-bottom: 15px;
+        /* margin-top: 60px; */
+    }
+
+    .cosmetics .wrapper {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .cosmetics .wrapper .card-container {
+        height: auto;
+        width: 100%;
+        /* background-color: lightcoral; */
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .cosmetics .wrapper .card-container .card {
+        /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
+        height: 300px;
+        width: 40%;
+        /* background-color: lightskyblue;  */
+        padding-bottom: 8px;
+        /* text-decoration: none; */
+    }
+    
+}
+
+@media only screen and (max-width: 545px){
+    .cosmetics .wrapper .card-container .card .content .rating p {
+        font-size: 14px
+}
+
+.cosmetics {
+    height: auto;
+    width: 100%;
+    /* background-color: yellow; */
+    margin-bottom: 15px;
+    /* margin-top: 60px; */
+}
+
+.cosmetics .wrapper {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cosmetics .wrapper .card-container {
+    height: auto;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.cosmetics .wrapper .card-container .card {
+    /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
+    height: 300px;
+    width: 100%;
+    /* background-color: lightskyblue;  */
+    padding-bottom: 8px;
+    /* text-decoration: none; */
+}
+
+.cosmetics .wrapper .heading-container h1{
+    font-size: 20px;
+}
+}
+
+
+
+

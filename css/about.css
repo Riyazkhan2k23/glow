@@ -1,0 +1,582 @@
+/* nav bar */
+
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: #3D613B;
+}
+
+nav .wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav .wrapper h1 a{
+    color:white;
+    text-decoration: none;
+}
+
+nav .wrapper h1 a:hover{
+    text-decoration: underline;
+}
+
+nav .wrapper .link ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav .wrapper .link ul li{
+    list-style: none;
+}
+
+nav .wrapper .link ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav .wrapper .icon{
+    display: flex;
+    gap: 20px;
+}
+
+nav .wrapper .icon i{
+    color: white;
+    font-size: 20px;
+}
+
+/* banner */
+
+.banner{
+    height: 400px;
+    width: 100%;
+    background-color: #3D613B;
+    margin-bottom: 60px;
+}
+
+.banner .wrapper{
+    height: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* about us */
+
+.about{
+    height: 500px;
+    width: 100%;
+    /* background-color: lightblue; */
+    margin-bottom: 60px;
+}
+
+.about .wrapper{
+    height: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about .wrapper .heading-container{
+    height: 10%;
+    width: 100%;
+    /* background-color: lightgreen; */
+    display: flex;
+    align-items: center;
+}
+
+.about .wrapper .heading-container h1{
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.about .wrapper .about-holder{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.about .wrapper .about-holder .left{
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+    /* background-color: lightcyan; */
+}
+
+.about .wrapper .about-holder .left img{
+    height: 100%;
+    width: 100%;
+    /* background-color: lightseagreen; */
+    object-fit: cover;
+    /* object-position: center; */
+}
+
+.about .wrapper .right{
+    height: 100%;
+    width: 60%;
+    /* background-color: lightgoldenrodyellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.about .wrapper .about-holder .right .bottom p{
+    text-align: left;
+}
+
+.about .wrapper .right .top{
+    /* background-color: #3D613B; */
+    width: 100%;
+}
+
+/*  */
+
+.about-two{
+    height: 500px;
+    width: 100%;
+    margin-bottom: 60px;
+    /* background-color: lightblue; */
+}
+.about-two .wrapper{
+    height: 100%;
+    /* background-color: lightcoral; */
+}
+
+
+.about-two .wrapper .about-holder{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.about-two .wrapper .about-holder .left{
+    height: 100%;
+    width: 60%;
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.about-two .wrapper .about-holder .right{
+    height: 100%;
+    width: 40%;
+    /* background-color: lightpink; */
+}
+
+.about-two .wrapper .about-holder .left .bottom p{
+    text-align: left;
+}
+
+.about-two .wrapper .about-holder .right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-two .wrapper .about-holder .left .top{
+    width: 100%;
+}
+
+/* blog */
+
+.blog{
+    height: 500px;
+    width: 100%;
+    /* background-color: lightgoldenrodyellow; */
+    margin-bottom: 60px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+
+.blog .wrapper{
+    height: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 0px; */
+ 
+}
+
+.blog .wrapper .heading{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: lightgreen; */
+}
+
+
+.blog .wrapper .heading h1{
+    text-align: center;
+}
+
+.blog .wrapper .image-container{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.blog .wrapper .image-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+
+
+/* media query */
+
+
+/* banner */
+
+@media only screen and (max-width: 1000px){
+
+.banner{
+    height: 300px;
+    width: 100%;
+    background-color: #3D613B;
+    margin-bottom: 60px;
+}
+
+.banner .wrapper{
+    height: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+}
+
+
+@media only screen and (max-width: 768px){
+    .banner{
+        height: 250px;
+        width: 100%;
+        background-color: #3D613B;
+        margin-bottom: 60px;
+    }
+    
+    .banner .wrapper{
+        height: 100%;
+        /* background-color: lightblue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .banner img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .banner{
+        height: 200px;
+        width: 100%;
+        background-color: #3D613B;
+        margin-bottom: 60px;
+    }
+    
+    .banner .wrapper{
+        height: 100%;
+        /* background-color: lightblue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .banner img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .banner{
+        height: 150px;
+        width: 100%;
+        background-color: #3D613B;
+        margin-bottom: 60px;
+    }
+    
+    .banner .wrapper{
+        height: 100%;
+        /* background-color: lightblue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .banner img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    } 
+}
+
+@media only screen and (max-width: 350px){
+    .banner{
+        height: 100px;
+        width: 100%;
+        background-color: #3D613B;
+        margin-bottom: 60px;
+    }
+    
+    .banner .wrapper{
+        height: 100%;
+        /* background-color: lightblue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .banner img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    } 
+}
+
+/* about */
+
+@media only screen and (max-width: 768px){
+    .about .wrapper .heading-container h1{
+        font-size: 24px;
+    }
+
+
+    .about .wrapper .about-holder .right .top h1{
+        font-size: 20px;
+    }
+
+    .about .wrapper .about-holder .left{
+        height: 100%;
+        width: 50%;
+    }
+
+    .about .wrapper .right{
+        height: 100%;
+        width: 50%;
+}
+
+.about .wrapper .about-holder .right .bottom p{
+    text-align: left;
+}
+
+.about-two .wrapper .about-holder .left{
+    height: 100%;
+    width: 50%;
+}
+
+.about-two .wrapper .about-holder .right{
+    height: 100%;
+    width: 50%;
+}
+
+.about-two .wrapper .about-holder .left .bottom p{
+    text-align: left;
+}
+}
+
+@media only screen and (max-width: 728px){
+    .about{
+        height: auto;
+        width: 100%;
+    }
+    
+    .about .wrapper{
+        height: auto;
+        /* background-color: lightcoral; */
+    }
+
+    .about .wrapper .about-holder{
+        height: auto;
+        width: 100%;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .about .wrapper .right{
+        width: 100%;
+    }
+
+    .about .wrapper .about-holder .left{
+        height: 100%;
+        width: 100%;
+    }
+
+    /*  */
+
+    .about-two{
+        height: auto;
+        width: 100%;
+        margin-bottom: 60px;
+        /* background-color: lightblue; */
+    }
+    .about-two .wrapper{
+        height: auto;
+        /* background-color: lightcoral; */
+    }
+    
+    
+    .about-two .wrapper .about-holder{
+        height: auto;
+        width: 100%;
+        /* background-color: aquamarine; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    
+    
+    .about-two .wrapper .about-holder .left{
+        height: 100%;
+        width: 100%;
+        /* background-color: lightgreen; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .about-two .wrapper .about-holder .right{
+        height: 100%;
+        width: 100%;
+        /* background-color: lightpink; */
+    }
+
+    .about-two .wrapper .about-holder .left .top h1{
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .blog .wrapper .heading h1{
+        font-size: 20px;
+    }
+
+    .about-two{
+        margin-bottom: 30px;
+    }
+
+    .about{
+        margin-bottom: 30px;
+    }
+
+    .about .wrapper .about-holder{
+        gap: 10px;
+    }
+
+    .about-two .wrapper .about-holder{
+        gap: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 400px){
+    .about .wrapper .heading-container h1{
+        font-size: 20px;
+    }
+
+    .about .wrapper .about-holder .right .top h1{
+        font-size: 16px;
+    }
+
+    .about .wrapper .about-holder .right .bottom p{
+        font-size: 14px;
+    }
+
+    .about-two .wrapper .about-holder .left .top h1 {
+        font-size: 16px;
+    }
+
+    .about-two .wrapper .about-holder .left .bottom p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 408px){
+    .blog .wrapper .heading h1{
+        font-size: 16px;
+        /* background-color: #3D613B; */
+    }
+
+    .blog .wrapper{
+     
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 346px){
+    .blog .wrapper .heading h1{
+        font-size: 14px;
+    }
+}
+
+
+
+
