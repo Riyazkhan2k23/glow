@@ -670,6 +670,11 @@ nav .wrapper i{
         padding: 0px 75px;
     }
 }
+@media only screen and (max-width: 470px){
+    .wrapper{
+        padding: 0px 50px;
+    }
+}
 
 
 /*  */

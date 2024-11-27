@@ -535,6 +535,7 @@
         background-size: cover;
         background-position: right;
         background-blend-mode: overlay;
+        background-color: rgba(0, 0, 0, 0.185);
         height: 300px;
         width: 100%;
         
